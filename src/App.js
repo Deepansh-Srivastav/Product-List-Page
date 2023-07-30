@@ -4,7 +4,7 @@ import './App.css';
 import Home from './HOME/Home';
 import Mobile from "./Mobile";
 import Laptop from "./Laptop";
-import Mouse from "./Mouse";
+import Monitor from "./Monitor";
 
 
 function App() {
@@ -16,7 +16,7 @@ function App() {
           <Route path='/' element={<Home />} />
           <Route path='/SmartPhones' element={<Mobile />} />
           <Route path='/Laptops' element={<Laptop />} />
-          <Route path='/Monitors' element={<Mouse />} />
+          <Route path='/Monitors' element={<Monitor />} />
 
 
 
