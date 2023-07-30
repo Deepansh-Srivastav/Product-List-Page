@@ -8,7 +8,7 @@ const Home = () => {
       <NavBar />
 
       <marquee direction="right" scrollamount='20'   >
-      This is the home Page
+      This is the home Page please select a category above to see the related product
     </marquee>
     </div >
   )
